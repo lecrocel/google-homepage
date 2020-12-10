@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: arial, sans-serif;
+}
+
 /*--------Flex Content----------*/
 
 .box {
@@ -165,7 +169,7 @@ input {
 .footer {
     flex: 0 1 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background: #f2f2f2;
     color: #70757a;
     padding: 2em;
