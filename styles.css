@@ -8,15 +8,27 @@ html {
     font-family: arial, sans-serif;
 }
 
-body {
+/*--------Flex Content----------*/
+
+.box {
+    display: flex;
+    flex-direction: column;
     height: 100%;
 }
 
-.page-grid {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+.box_header {
+    flex: 0 1 auto;
 }
+
+.box_content {
+    flex: 1 1 auto;
+}
+
+.box_footer {
+    flex: 0 1 auto;
+}
+
+/*--------Google Homepage----------*/
 
 .header {
     display: flex;
@@ -68,7 +80,7 @@ body {
 }
 
 main {
-    flex-grow: 1;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,8 +167,9 @@ input {
 }
 
 .footer {
+    flex: 0 1 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background: #f2f2f2;
     color: #70757a;
     padding: 2em;
