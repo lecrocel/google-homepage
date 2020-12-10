@@ -14,17 +14,14 @@
 
 .box_header {
     flex: 0 1 auto;
-    border: 1px dotted black;
 }
 
 .box_content {
     flex: 1 1 auto;
-    border: 1px dotted black;
 }
 
 .box_footer {
     flex: 0 1 auto;
-    border: 1px dotted black;
 }
 
 /*--------Google Homepage----------*/
